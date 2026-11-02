@@ -1,0 +1,72 @@
+.contact-footer {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-section {
+  padding: 50px 20px;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contact-section > p {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.contact-item {
+  text-align: center;
+}
+
+.contact-item span {
+  font-size: 30px;
+}
+
+.contact-item h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.contact-item p {
+  font-size: 16px;
+}
+
+.footer {
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.footer h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-nav a:hover {
+  color: blue;
+}
+
+.footer p {
+  margin: 5px;
+}

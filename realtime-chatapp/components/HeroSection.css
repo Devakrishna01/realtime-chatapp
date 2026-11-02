@@ -1,0 +1,56 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 40px;
+}
+
+.left-hero {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-hero p {
+  font-size: 20px;
+  color: rgb(25, 25, 199);
+}
+
+.left-hero button {
+  padding: 15px 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: brown;
+  border: none;
+  border-radius: 12px;
+  color: azure;
+  font-size: 20px;
+}
+
+.right-hero {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.right-hero h2 {
+  font-size: 32px;
+}
+
+.right-hero .mess {
+  line-height: 2;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}

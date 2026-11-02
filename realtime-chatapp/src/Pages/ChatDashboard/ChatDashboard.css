@@ -1,0 +1,124 @@
+.dash-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dash-body {
+  display: flex;
+  gap: 30px;
+}
+.dash-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.dash-right {
+  flex: 1;
+  font-size: 18px;
+  color: rgb(162, 0, 255);
+}
+
+.dash-left a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.profile-button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  background-color: rgb(144, 55, 226);
+  text-decoration: none;
+}
+
+.profile-button:hover {
+  background-color: rgb(141, 75, 202);
+}
+
+.notification-button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  background-color: blanchedalmond;
+  text-decoration: none;
+}
+
+.chats-sidebar {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.conversation {
+  color: white;
+  background-color: rgb(145, 101, 43);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.03s;
+  border-radius: 12px;
+  text-align: center;
+}
+.conversation-selected {
+  background-color: rgb(55, 168, 168);
+}
+
+.conversation:hover {
+  transform: translateY(-5px);
+}
+
+.selected-convo {
+  border: 1px solid black;
+  padding: 20px;
+}
+.getinputfromright {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(89, 157, 218);
+  color: brown;
+}
+.send-button {
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+  margin-left: 20px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.membermess {
+  display: flex;
+  flex-direction: column;
+}
+
+.sent-message {
+  align-self: flex-end;
+  padding: 10px 15px;
+  border-radius: 12px;
+  margin: 5px, 0;
+  max-width: 60%;
+  background-color: lightblue;
+  display: flex;
+}
+.received-message {
+  align-self: flex-start;
+  padding: 10px 15px;
+  border-radius: 12px;
+  margin: 5px, 0px;
+  max-width: 60%;
+  background-color: lightgray;
+}
+span {
+  padding: 8px;
+  color: black;
+  align-self: flex-end;
+  font-size: 12px;
+}

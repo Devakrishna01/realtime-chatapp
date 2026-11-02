@@ -1,0 +1,60 @@
+.notification-page {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 900;
+}
+.backlink {
+  text-decoration: none;
+}
+.all-read {
+  padding: 10px;
+  border: none;
+  background-color: rgb(99, 151, 197);
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rbga(0, 0, 0, 0.3);
+  transition: 0.03s;
+}
+.all-read:hover {
+  transform: translateY(-2px);
+}
+
+.notifi-body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.notifi-card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  background-color: rgb(228, 148, 50);
+  padding: 10px;
+  border-radius: 12px;
+  justify-content: space-around;
+}
+.notifi-card .title {
+  font-size: 18px;
+  color: rgb(4, 43, 30);
+}
+.notifi-card .message {
+  font-size: 16px;
+  color: rgb(9, 66, 119);
+}
+.notifi-card .readmessage {
+  border: none;
+  border-radius: 10px;
+}
+.notifi-card .timeofmessage {
+  font-size: 16px;
+  color: rgb(172, 47, 155);
+}

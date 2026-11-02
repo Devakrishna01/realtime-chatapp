@@ -1,0 +1,57 @@
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.register-header {
+  display: flex;
+  flex-direction: column;
+  color: rgb(66, 66, 202);
+}
+
+.register-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: left;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+  background-color: rgb(221, 216, 216);
+  border-radius: 12px;
+  padding: 8px;
+}
+
+label {
+  padding: 8px;
+  font-size: 18px;
+  color: rgb(89, 0, 255);
+  font-weight: 900;
+  text-align: center;
+}
+input {
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(93, 197, 175);
+  color: rgb(151, 18, 18);
+}
+.submit-button-form {
+  padding: 8px;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 12px;
+  font-size: 18px;
+}
+.all-login-link {
+  font-size: 18px;
+  font-weight: 900;
+}
+.login-link {
+  text-decoration: none;
+}

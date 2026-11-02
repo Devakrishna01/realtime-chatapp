@@ -1,0 +1,21 @@
+.feature-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  gap: 40px;
+  text-align: center;
+}
+.feature-cards {
+  line-height: 1.6;
+  background-color: rgb(123, 123, 218);
+  border-radius: 20px;
+  padding: 20px 30px;
+  transition: 0.03s;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+.feature-cards h1 {
+  font-size: 40px;
+}
+.feature-cards:hover {
+  transform: translateY(-5px);
+}

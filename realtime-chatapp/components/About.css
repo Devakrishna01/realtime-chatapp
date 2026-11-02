@@ -1,0 +1,14 @@
+.about-contentfull {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+.about-content p {
+  line-height: 1.6;
+  font-size: 24px;
+  color: rgb(0, 0, 204);
+}
+.icon {
+  font-size: 30px;
+}

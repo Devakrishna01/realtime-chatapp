@@ -1,0 +1,63 @@
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: spacebetween;
+}
+.left-content {
+  margin-right: 30px;
+}
+.right-content {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-content a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.login-button {
+  padding: 18px 24px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(90, 90, 184);
+  font-size: 15px;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: rgb(62, 62, 150);
+}
+
+.register-button {
+  padding: 18px 24px;
+  border-radius: 12px;
+  border: none;
+  font-size: 15px;
+  color: brown;
+  background-color: aquamarine;
+}
+.register-button:hover {
+  background-color: rgb(103, 202, 103);
+}
+.lastcontent {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.lastcontent button {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.left-content h1 {
+  cursor: pointer;
+}

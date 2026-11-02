@@ -1,0 +1,35 @@
+.logout-page {
+  margin: 200px auto;
+  display: flex;
+  max-width: 250px;
+  flex-direction: column;
+  gap: 40px;
+  background-color: skyblue;
+  align-items: center;
+  border-radius: 20px;
+}
+.header {
+  font-size: 34px;
+  padding: 10px;
+  color: rgb(67, 99, 7);
+}
+.logout-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cancel,
+.logout {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: azure;
+  background-color: rgb(104, 211, 33);
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.buttonsall {
+  display: flex;
+  justify-content: space-around;
+}
